@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Journey to Self-Improvement</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      }
+
+      body {
+        background: linear-gradient(135deg, #f5d6a1 0%, #f0a07b 100%);
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+      }
+
+      .container {
+        max-width: 100%;
+        margin: 0 auto;
+        padding: 2rem;
+        background: rgba(255, 235, 205, 0.9);
+        border-radius: 12px;
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+
+      header {
+        text-align: center;
+        padding: 3rem 0;
+      }
+
+      h1 {
+        color: #8b4513;
+        font-size: 3rem;
+        margin-bottom: 1rem;
+      }
+
+      .quote {
+        font-style: italic;
+        color: #a0522d;
+        margin-bottom: 2rem;
+      }
+
+      .cards-container {
+        display: flex;
+        gap: 2rem;
+        overflow-x: auto;
+        padding: 2rem 0;
+      }
+
+      .card {
+        background: rgba(255, 255, 255, 0.9);
+        border-radius: 15px;
+        padding: 2rem;
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease;
+        min-width: 300px;
+        text-align: center;
+      }
+
+      .card:hover {
+        transform: translateY(-5px);
+      }
+
+      .card-title {
+        color: #d2691e; /* Warmer color for title */
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
+        text-decoration: none;
+        font-weight: bold;
+      }
+
+      .progress-section {
+        margin-top: 3rem;
+        text-align: center;
+      }
+
+      .progress-bar {
+        width: 100%;
+        height: 20px;
+        background: #eee;
+        border-radius: 10px;
+        overflow: hidden;
+        margin: 1rem 0;
+      }
+
+      .progress-bar-fill {
+        width: 70%;
+        height: 100%;
+        background: linear-gradient(90deg, #4CAF50, #8BC34A);
+        animation: progress 2s ease;
+      }
+
+      @keyframes progress {
+        from { width: 0; }
+        to { width: 70%; }
+      }
+
+      .subscribe-link {
+        margin-top: 1rem;
+        font-size: 1.2rem;
+        color: #8b4513;
+        text-decoration: none;
+        font-weight: bold;
+        transition: color 0.3s ease, font-size 0.3s ease;
+      }
+
+      .subscribe-link:hover {
+        color: #a0522d;
+        font-size: 1.3rem;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>Your Journey to Growth</h1>
+        <p class="quote">"The journey of a thousand miles begins with one step." - Lao Tzu</p>
+      </header>
+      <div class="cards-container">
+        <div class="card">
+          <a href="https://docs.google.com/document/d/1s97NOMlYLqkA6aRO2G5MTWsHzABgxE_bLAoCUp20Nns/edit?usp=sharing" class="card-title">
+            Mindfulness
+          </a>
+        </div>
+        <div class="card">
+          <a href="https://docs.google.com/document/d/1ENjG8YIVYwdXmbflidKFZ7_O-2vcTTErdcA2zFR0W-I/edit?usp=sharing" class="card-title">
+            Workout
+          </a>
+        </div>
+        <div class="card">
+          <a href="https://docs.google.com/document/d/17fpQrsSRo2Pmkk_v7RT1Ies3TkskRLxVweO3r6Bsd64/edit?usp=sharing" class="card-title">
+            Skin
+          </a>
+        </div>
+        <div class="card">
+          <a href="https://docs.google.com/document/d/14jGedH_3cQnbYL11eUse9vjH2Q6SRodcLNvm34HS6J0/edit?usp=sharing" class="card-title">
+            Smell
+          </a>
+        </div>
+      </div>
+      <div class="progress-section">
+        <h2>Your Progress</h2>
+        <div class="progress-bar">
+          <div class="progress-bar-fill"></div>
+        </div>
+        <p>Keep going! You're making great progress on your journey.</p>
+      </div>
+      <a href="https://youtube.com/@veer.merlapaku?si=fLBGPbd11TSYPayl" class="subscribe-link">Subscribe</a>
+    </div>
+  </body>
+</html>
